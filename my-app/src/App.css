@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  font-family: "Calibri, sans-serif";
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333333;
+}
+
+.App-logo {
+  border: 0;
+  height: 55px;
+  width: auto;
+  float: left;
+  margin: 12px;
+  padding-left: 20px;
+}
+.header {
+  background-color: #5514b4;
+  height: 80px;
+  position: relative;
+  color: #ffffff;
+}
+div.container>div:nth-of-type(odd) {
+  background: #AEAD8C;
+}
+div.container>div:nth-of-type(even) {
+  background: #B2CCB5;
+}
+.container {
+  margin: 30px auto;
+}
+.footer {
+  background-color: #5514b4;
+  text-align: center;
+  height: 80px;
+  color: #ffffff;
+}
